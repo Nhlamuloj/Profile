@@ -1,11 +1,8 @@
-import React from 'react'
-import newsappImg from '../assets/image1.jpg'
-import weatherappImg from '../assets/image2.png'
-import planetImage from '../assets/image3.png'
-import onBoardImg from '../assets/image4.png'
-import empImg from '../assets/image5.png'
+
 import Aboutme from '../assets/Aboutme.png'
 import covid19app from '../assets/covid19app.png'
+import budgetapp from '../assets/budgetapp.png'
+import Employee from '../assets/Employee.png'
 
 const ProjectData = [
     {
@@ -39,9 +36,18 @@ const ProjectData = [
    {
       title: "Budget",
       description: "A fullstack Todo list app running on mobile",
-      codeLink: "https://github.com/Nhlamuloj/wabsiteportfolio",
-      projectLink: "https://github.com/Nhlamuloj/wabsiteportfolio",
-      imageUrl: Aboutme,
+      codeLink: "https://github.com/Nhlamuloj/budget",
+      projectLink: "https://budget-app-acce3.web.app/",
+      imageUrl: budgetapp,
+      tag: "React",
+   },
+
+   {
+      title: "Employee",
+      description: "A fullstack Todo list app running on mobile",
+      codeLink: "",
+      projectLink: "https://employee-appp.web.app/",
+      imageUrl: Employee,
       tag: "React",
    },
    
